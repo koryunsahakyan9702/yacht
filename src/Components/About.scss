@@ -1,0 +1,49 @@
+.about{
+    margin-top: 8rem;
+    width: 100%;
+    .nav{
+        width: 50%;
+        display: flex;
+        gap: 5px;
+        .nav_gen{color: #163152;
+            font-family: Noto Sans;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.125rem; /* 128.571% */
+
+        }
+        .nav_sec{color: #163152;
+            font-family: Noto Sans;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.125rem; /* 128.571% */
+
+
+        }
+        .it{color: #163152;
+            font-family: Noto Sans;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.125rem; /* 128.571% */
+            opacity: 0.4;
+        }
+    }
+    .about_back{
+        width: 100%;
+        height: 33.125rem;
+        background-image: url("../images/about_x.jpg");
+        background-size: cover;
+    }
+    .about_name{color: rgba(40, 60, 84, 0.50);
+        font-family: Noto Sans;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 5px;
+
+    }
+}

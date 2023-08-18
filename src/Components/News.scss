@@ -1,0 +1,304 @@
+.news{
+    margin-top: 10rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5rem;
+    .news_title{
+        color: #163152;
+        text-align: right;
+        font-family: Noto Sans;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.125rem; /* 141.667% */
+        padding-bottom:10px ;
+        border-bottom: 2px solid #00C6BD;
+
+    }
+    .news_items{
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        .general_news{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: #FDFDFF;
+            box-shadow: 0px 4px 30px 0px rgba(22, 49, 82, 0.12);
+            .img_news{
+                width:100%;
+                height: 23.625rem;
+                flex-shrink: 0;
+                background: url("https://img.freepik.com/premium-photo/confident-captain-standing-front-luxury-yacht-captain-exudes-sense-professionalism-expertise-with-impressive-yacht-background-generative-ai_213438-10405.jpg?w=2000");
+                background-size: cover;
+            }
+            .desc{
+                margin-left: 2rem;
+                padding-right: 2rem;
+                .winner{
+                    color: rgba(40, 60, 84, 0.50);
+                    font-family: Noto Sans;
+                    font-size: 0.875rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+
+                }
+                .img-tit{
+                    color: #163152;
+                    font-family: Noto Sans;
+                    font-size: 1.375rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+
+                }
+                .img_about{
+                    color: #283C54;
+                    font-family: Noto Sans;
+                    font-size: 1.125rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1.625rem; /* 144.444% */
+
+                }
+            }
+            .user{
+                margin-top: 7rem;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .user_img{
+                    width: 35%;
+                    gap:2px;
+                    display: flex;
+                    .author{
+                       margin-left:2rem;
+                        img{
+                            width: 60px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            border-radius: 50%;
+
+                        }
+                    }
+                }
+                .share{
+                    cursor: pointer;
+                    padding-right: 2rem;
+                }
+                .name{
+                    color: #283C54;
+                    font-family: Noto Sans;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    p{
+                        color: rgba(40, 60, 84, 0.50);
+                        font-family: Noto Sans;
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: 0.04rem;
+
+                    }
+                }
+            }
+        }
+        .second_news{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+            
+            .second1{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                background: #FDFDFF;
+                box-shadow: 0px 4px 30px 0px rgba(22, 49, 82, 0.12);
+                .img_news{
+                    width: 100%;
+                    height: 8.125rem;
+                    background-image: url("../images/news1.jpg");
+                    background-size: cover;
+                    
+                    
+                }
+                .desc{
+                    margin-left: 2rem;
+                    padding-right: 2rem;
+                    .winner{
+                        color: rgba(40, 60, 84, 0.50);
+                        font-family: Noto Sans;
+                        font-size: 0.75rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+
+                    }
+                    .img-tit{
+                        color: #163152;
+                        font-family: Noto Sans;
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        
+                    }
+                    .img_about{
+                        color: #283C54;
+                        font-family: Noto Sans;
+                        font-size: 0.875rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+
+                    }
+                } 
+                .user{
+                    margin-top: 1rem;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .user_img{
+                        width: 50%;
+                        gap:2px;
+                        display: flex;
+                        justify-content: center;
+                        .author{
+                           margin-left:2rem;
+                            img{
+                                width: 30px;
+                                height: 30px;
+                                flex-shrink: 0;
+                                border-radius: 50%;
+    
+                            }
+                        }
+                    }
+                    .share{
+                        cursor: pointer;
+                        padding-right: 2rem;
+                    }
+                    .name{
+                        color: #283C54;
+                        font-family: Noto Sans;
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        p{
+                            color: rgba(40, 60, 84, 0.50);
+                            font-family: Noto Sans;
+                            font-size: 0.75rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;}
+                    }
+                }
+                  
+            }
+            .second2{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                background: #FDFDFF;
+                box-shadow: 0px 4px 30px 0px rgba(22, 49, 82, 0.12);
+                .img_news{
+                    width: 100%;
+                    height: 8.125rem;
+                    background-image: url("../images/news2.jpg");
+                    background-size: cover;
+                    
+                    
+                }
+                .desc{
+                    margin-left: 2rem;
+                    padding-right: 2rem;
+                    .winner{
+                        color: rgba(40, 60, 84, 0.50);
+                        font-family: Noto Sans;
+                        font-size: 0.75rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+
+                    }
+                    .img-tit{
+                        color: #163152;
+                        font-family: Noto Sans;
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        
+                    }
+                    .img_about{
+                        color: #283C54;
+                        font-family: Noto Sans;
+                        font-size: 0.875rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+
+                    }
+                } 
+                .user{
+                    margin-top: 1rem;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .user_img{
+                        width: 60%;
+                        gap:2px;
+                        display: flex;
+                        .author{
+                           margin-left:2rem;
+                            img{
+                                width: 30px;
+                                height: 30px;
+                                flex-shrink: 0;
+                                border-radius: 50%;
+    
+                            }
+                        }
+                    }
+                    .share{
+                        cursor: pointer;
+                        padding-right: 2rem;
+                    }
+                    .name{
+                        color: #283C54;
+                        font-family: Noto Sans;
+                        font-size: 0.75rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        p{
+                            color: rgba(40, 60, 84, 0.50);
+                            font-family: Noto Sans;
+                            font-size: 0.75rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            
+                        }
+                    }
+                }
+                  
+            }
+        }
+    }
+}

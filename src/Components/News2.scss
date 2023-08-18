@@ -1,0 +1,112 @@
+.cont{
+    display: flex;
+    margin-top: 10rem;
+    flex-direction: column;
+    gap: 2rem;
+    .cont_tit{color: #163152;
+        font-family: Noto Sans;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.125rem; /* 141.667% */
+
+    }
+    .cont_border{
+        width: 17%;
+        height: 0.125rem;
+        background: #00C6BD;
+    }
+    .cont_news{
+        width: 100%;
+        display: flex;
+        .second1{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            background: #FDFDFF;
+            box-shadow: 0px 4px 30px 0px rgba(22, 49, 82, 0.12);
+            .img_news{
+                width: 100%;
+                height: 8.125rem;
+                background-image: url("../images/news1.jpg");
+                background-size: cover;
+                
+                
+            }
+            .desc{
+                margin-left: 2rem;
+                padding-right: 2rem;
+                .winner{
+                    color: rgba(40, 60, 84, 0.50);
+                    font-family: Noto Sans;
+                    font-size: 0.75rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+        
+                }
+                .img-tit{
+                    color: #163152;
+                    font-family: Noto Sans;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    
+                }
+                .img_about{
+                    color: #283C54;
+                    font-family: Noto Sans;
+                    font-size: 0.875rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+        
+                }
+            } 
+            .user{
+                margin-top: 1rem;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .user_img{
+                    width: 50%;
+                    gap:2px;
+                    display: flex;
+                    justify-content: center;
+                    .author{
+                       margin-left:2rem;
+                        img{
+                            width: 30px;
+                            height: 30px;
+                            flex-shrink: 0;
+                            border-radius: 50%;
+        
+                        }
+                    }
+                }
+                .share{
+                    cursor: pointer;
+                    padding-right: 2rem;
+                }
+                .name{
+                    color: #283C54;
+                    font-family: Noto Sans;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    p{
+                        color: rgba(40, 60, 84, 0.50);
+                        font-family: Noto Sans;
+                        font-size: 0.75rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;}
+                }
+            }
+              
+        }
+    }
+}

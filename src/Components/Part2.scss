@@ -1,0 +1,97 @@
+.part2{
+    margin-top: 10rem;
+    width: 90%;
+    margin-right: 10%;
+    display: flex;
+    gap: 5rem;
+    .part2_text{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 2rem;
+        .sec1{color: #283C54;
+            font-family: Noto Sans;
+            font-size: 1rem;
+            font-style: italic;
+            font-weight: 500;
+            line-height: 140%; /* 1.4rem */
+
+        }
+        .sec2{color: #283C54;
+            font-family: Noto Sans;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 1.4rem */
+
+        }
+        .sec3{color: #283C54;
+            font-family: Noto Sans;
+            font-size: 1rem;
+            font-style: italic;
+            font-weight: 500;
+            line-height: 140%; /* 1.4rem */
+
+        }
+        .sec4{color: #283C54;
+            font-family: Noto Sans;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;}
+            .sec5{
+                li{color: #283C54;
+                font-family: Noto Sans;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                list-style-image:url("../images/icons8-star-30.png") ;
+                }
+                
+            }
+            .sec6{color: #283C54;
+                font-family: Noto Sans;
+                font-size: 1rem;
+                font-style: italic;
+                font-weight: 500;
+                line-height: 140%; /* 1.4rem */
+
+            }
+            .sec7{color: #283C54;
+                font-family: Noto Sans;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%; /* 1.4rem */
+
+            }
+    }
+    .part2_name{
+        width: 30%;
+        
+        height: 11%;
+        padding: 10px;
+        border-bottom: 1px solid #E5E5E5;
+        border-top: 1px solid #E5E5E5;
+        .name_div{color: #283C54;
+            width: 80%;
+            font-family: Noto Sans;
+            font-size: 0.75rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            display: flex;
+        align-items: center;
+        gap:1rem
+
+        }
+        .school_ic{
+            padding: 5px;
+            border-radius: 50%;
+            background-color: #00C6BD;
+        }
+    }
+}
